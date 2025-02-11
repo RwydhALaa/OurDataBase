@@ -43,7 +43,7 @@ CREATE TABLE `menu_items` (
   `productID` int(11) NOT NULL,
   `name` varchar(50) NOT NULL,
   `description` text NOT NULL,
-  `price` decimal(10,0) NOT NULL,
+  `price` decimal(10,2) NOT NULL,
   `category` varchar(30) NOT NULL,
   `stock` int(11) NOT NULL,
   `image` varchar(255) NOT NULL,
